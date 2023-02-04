@@ -1,21 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
-  return (
-    <div className="bg-red-400 h-screen">
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
