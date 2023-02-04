@@ -7,3 +7,9 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('renders application logo', () => {
+  render(<App />);
+  const imageElement = screen.getByAltText(/logo/i);
+  expect(imageElement).toBeInTheDocument();
+});
